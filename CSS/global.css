@@ -268,14 +268,13 @@ footer .follow i {
 }
 
 #products .listProduct .item {
-  width: 49%;
-  max-width: 280px;
-  height: 380px;
+  width: 48%;
+  max-width: 400px;
+  height: 350px;
   align-items: baseline;
   flex: 0 0 auto;
   scroll-snap-align: start;
   justify-content: space-around;
-  text-align: left;
 }
 
 #products .listProduct .item .flex-row {
@@ -288,8 +287,8 @@ footer .follow i {
 #products .listProduct .item img {
   width: 100%;
   height: 250px;
-  background-color: var(--white-color);
-  object-fit: contain;
+  background-color: var(--border-color);
+  object-fit: cover;
 }
 
 #products .listProduct .item .product-name {
