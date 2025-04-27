@@ -1,0 +1,70 @@
+{
+    "ACCESORIOS": [
+        {
+            "name": "ROLEX 20",
+            "price": 150.000,
+            "details": "ROLEX DESCRIPTION",
+            "image": "/IMG/PRODUCTS/rolex20.jpg"
+        },
+        {
+            "name": "ROLEX 23",
+            "price": 150.000,
+            "details": "ROLEX DESCRIPTION",
+            "image": "/IMG/bg-textured-black.jpg"
+        },
+        {
+            "name": "product2",
+            "price": 72500,
+            "details": "description",
+            "image": "/IMG/bg-textured-black.jpg"
+        },
+        {
+            "name": "product3",
+            "price": 36600,
+            "details": "description",   
+            "image": "/IMG/bg-textured-black.jpg"
+        }
+    ],
+    "categoria2": [
+        {
+            "name": "product4",
+            "price": 19600,
+            "details": "description",
+            "image": "/IMG/bg-textured-black.jpg"
+        },
+        {
+            "name": "product5",
+            "price": 18400,
+            "details": "description.",
+            "image": "/IMG/bg-textured-black.jpg"
+        }
+    ],
+    "categoria3": [
+        {
+            "name": "product6",
+            "price": 29600,
+            "details": "description.",
+            "image": "/IMG/bg-textured-black.jpg"
+        },
+        {
+            "name": "product7",
+            "price": 7100,
+            "details": "description.",
+            "image": "/IMG/bg-textured-black.jpg"
+        }
+    ],
+    "categoria4": [
+        {
+            "name": "product8",
+            "price": 58000,
+            "details": "description.",
+            "image": "/IMG/bg-textured-black.jpg"
+        },
+        {
+            "name": "product9",
+            "price": 6200,
+            "details": "description.",
+            "image": "/IMG/bg-textured-black.jpg"
+        }
+    ]
+}

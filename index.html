@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/global.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>e-commerce</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="flex-row">
+    <a href="#">
+      <img src="#" alt="Logo">
+    </a>
+
+    <i class="bi bi-list open-nav"></i>
+    <nav class="flex-column">
+      <a href="#">Home</a></li>
+      <a href="#">Products</a></li>
+      <a href="#">About Us</a></li>
+      <a href="#">Contact</a></li>
+      <i class="bi bi-x-lg close-nav"></i>
+    </nav>
+
+  </header>
+
+
+  <!-- HERO -->
+  <section id="hero" class="flex-column">
+    <h1>Welcome to Our E-commerce Store</h1>
+    <p>Shop the latest products at unbeatable prices!</p>
+  </section>
+
+
+  <!-- PRODUCTS + CART -->
+  <section id="products" class="flex-column">
+    <h2>NUESTROS PRODUCTOS</h2>
+
+    <div class="icon-cart">
+      <i class="bi bi-cart flex-row"></i>
+      <span>0</span>
+    </div>
+
+    <div class="main-listProduct flex-column">
+      <div class="listProduct flex-row">
+      </div>
+    </div>
+
+    <div class="cartTab flex-column">
+      <h2>TU Carrito</h2>
+      <div class="listCart flex-column">
+
+      </div>
+      <div class="btn">
+        <button class="close">Cerrar</button>
+        <button class="clean">Limpiar</button>
+        <button class="buy">Confirmar <br> Orden</button>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="flex-column">
+    <img src="" alt="logo">
+    <h2></h2>
+    <div class="follow flex-row">
+      <a href="" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a href="" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a href="" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+      <a href="" target="_blank" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+    </div>
+    <code>©copyright 2025 By MacV </code>
+  </footer>
+
+
+  <!-- VISTAS -->
+
+  <!-- VISTA PRODUCT DETAILS -->
+  <section id="v-product" class="flex-column">
+    <i class="bi bi-x-lg close-v-product"></i>
+    <img src="" alt="imagen-producto">
+    <h2 class="name">NAME PRODUCT</h2>
+    <p class="details">DETAILS PRODUCT</p>
+    <button class="addCart button1">Agregar</button>
+  </section>
+
+  <!-- IMAGEN GRANDE DE PRODUCTO -->
+  <div id="image-modal" class="flex-column" style="display:none;">
+    <spa n class="close-modal">×</spa>
+    <img src="" alt="Imagen ampliada">
+  </div>
+
+
+
+  <!-- JS -->
+  <script src="./JS/global.js"></script>
+</body>
+
+</html>
