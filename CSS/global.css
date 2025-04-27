@@ -269,8 +269,8 @@ footer .follow i {
 
 #products .listProduct .item {
   width: 49%;
-  max-width: 400px;
-  height: 350px;
+  max-width: 280px;
+  height: 380px;
   align-items: baseline;
   flex: 0 0 auto;
   scroll-snap-align: start;
@@ -288,7 +288,7 @@ footer .follow i {
 #products .listProduct .item img {
   width: 100%;
   height: 250px;
-  background-color: var(--border-color);
+  background-color: var(--white-color);
   object-fit: contain;
 }
 
