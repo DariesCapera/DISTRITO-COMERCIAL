@@ -1,7 +1,7 @@
 :root {
-  --white-color: #f3f3f3;
+  --white-color: #ffffff;
   --border-color: #b9b9b9;
-  --black-color: #222;
+  --black-color: #000000;
 }
 
 * {
@@ -72,9 +72,9 @@ header>a {
 }
 
 header img {
-  width: 50px;
   height: 50px;
   background-color: var(--border-color);
+  border-radius: 3px;
 }
 
 header nav.flex-column {
@@ -173,17 +173,19 @@ button {
 
 
 /* FOOTER */
-footer {
+footer.flex-row {
   width: 100%;
-  padding: 21px 4px;
+  padding: 21px 35px;
   background-color: var(--black-color);
   color: var(--white-color);
+  flex-wrap: wrap;
   gap: 14px;
+
 }
 
 footer img {
-  width: 70px;
   height: 70px;
+  border-radius: 3px;
   background-color: var(--border-color);
 }
 
@@ -260,16 +262,17 @@ footer .follow i {
   scroll-snap-type: x mandatory;
   justify-content: flex-start;
   flex-wrap: wrap;
+  row-gap: 21px;
 }
 
 #products .listProduct .item {
   width: 50%;
-  height: 310px;
+  max-width: 400px;
+  height: 350px;
   align-items: baseline;
-  /* border: 1px solid var(--border-color); */
   flex: 0 0 auto;
   scroll-snap-align: start;
-  padding-bottom: 14px;
+  justify-content: space-around;
 }
 
 #products .listProduct .item .flex-row {
@@ -281,8 +284,9 @@ footer .follow i {
 
 #products .listProduct .item img {
   width: 100%;
-  height: 70%;
+  height: 250px;
   background-color: var(--border-color);
+  object-fit: cover;
 }
 
 #products .listProduct .item .product-name {
@@ -307,7 +311,7 @@ footer .follow i {
   right: -400px;
   bottom: 0;
   transition: .3s ease-in-out;
-  box-shadow: 0 0 14px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.7);
   z-index: 11;
 }
 
@@ -437,12 +441,28 @@ footer .follow i {
   align-items: baseline;
   padding: 14px;
   gap: 7px;
+  overflow-x: auto;
+  max-width: 520px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.7);
+
 }
 
 #v-product img {
   background-color: var(--border-color);
-  height: 200px;
+  height: auto;
   width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+}
+
+.back-black {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: -50;
 }
 
 
@@ -530,5 +550,13 @@ footer .follow i {
     border: none;
     letter-spacing: 0px;
     width: auto;
+  }
+
+  footer.flex-row {
+    justify-content: space-between;
+  }
+
+  #products .listProduct {
+    justify-content: space-evenly;
   }
 }
