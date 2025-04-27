@@ -22,6 +22,10 @@ let cart = [];
 
 const cleanImagePath = (path) => path ? path.trim() : '';
 
+const textoConSaltos = producto.details.replace(/\n/g, '<br>');
+elementoHTML.innerHTML = textoConSaltos;
+
+
 $openNav.addEventListener("click", () => $nav.style.display = "flex");
 $closeNav.addEventListener("click", () => $nav.style.display = "none");
 $closeViewProduct.addEventListener("click", () => $viewProduct.style.display = "none");
