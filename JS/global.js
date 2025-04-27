@@ -211,16 +211,4 @@ $imgModal?.addEventListener('click', (e) => {
   if (e.target === $imgModal) $imgModal.style.display = 'none';
 });
 
-// Botón comprar
-$btnBuy.addEventListener("click", () => {
-  let total = document.querySelector('.cart-total strong').innerText;
-  let mensaje = `Hola BOLIGLOBOS!, quiero hacer un pedido:\n\n`;
 
-  cart.forEach((item) => {
-    mensaje += `- ${products[item.product_id - 1].name} - $${products[item.product_id - 1].price.toFixed(3)} x ${item.quantity} = ${(products[item.product_id - 1].price.toFixed(3) * item.quantity).toFixed(3)}\n`;
-  });
-  mensaje += `\n*${total}*`;
-
-  const urlWhatsApp = `https://wa.me/3184215899?text=${encodeURIComponent(mensaje)}`;
-  window.open(urlWhatsApp, "_blank");
-});
