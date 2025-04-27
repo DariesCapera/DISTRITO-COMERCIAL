@@ -22,8 +22,7 @@ let cart = [];
 
 const cleanImagePath = (path) => path ? path.trim() : '';
 
-const textoConSaltos = producto.details.replace(/\n/g, '<br>');
-elementoHTML.innerHTML = textoConSaltos;
+
 
 
 $openNav.addEventListener("click", () => $nav.style.display = "flex");
@@ -77,6 +76,8 @@ const addDataToHTML = () => {
       });
     });
     listProductHTML.appendChild(fragment);
+
+
   }
 };
 
