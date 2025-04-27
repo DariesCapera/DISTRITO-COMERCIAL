@@ -1,4 +1,4 @@
-// ✅ ARCHIVO: global.js (actualizado)
+// ✅ ARCHIVO: global.js (ACTUALIZADO CON SALTOS DE LÍNEA EN DETAILS)
 
 let currentProductIndex = null;
 
@@ -21,9 +21,6 @@ let products = [];
 let cart = [];
 
 const cleanImagePath = (path) => path ? path.trim() : '';
-
-
-
 
 $openNav.addEventListener("click", () => $nav.style.display = "flex");
 $closeNav.addEventListener("click", () => $nav.style.display = "none");
@@ -64,20 +61,19 @@ const addDataToHTML = () => {
         <div class="flex-row">
           <button class="addCart button1">Agregar</button>
         </div>`;
+
       fragment.appendChild(newProduct);
 
       newProduct.addEventListener('click', (e) => {
         if (e.target.closest('.addCart')) return;
         $viewProduct.querySelector('img').src = `.${product.image}`;
         $viewProduct.querySelector('.name').textContent = product.name;
-        $viewProduct.querySelector('.details').textContent = product.details;
+        $viewProduct.querySelector('.details').innerHTML = product.details.replace(/\n/g, '<br>');
         $viewProduct.style.display = "flex";
         currentProductIndex = index;
       });
     });
     listProductHTML.appendChild(fragment);
-
-
   }
 };
 
@@ -143,6 +139,7 @@ const addCartToHTML = () => {
   });
 
   listCartHTML.appendChild(fragment);
+
   const totalSection = document.createElement('div');
   totalSection.classList.add('cart-total');
   totalSection.innerHTML = `<strong>Total: $${totalPrice.toFixed(3)}</strong>`;
@@ -194,6 +191,7 @@ const initApp = () => {
 
 window.addEventListener('DOMContentLoaded', initApp);
 
+// Modal de imagen
 const $imgModal = document.getElementById('image-modal');
 const $modalImg = $imgModal?.querySelector('img');
 const $closeModal = $imgModal?.querySelector('.close-modal');
@@ -213,14 +211,12 @@ $imgModal?.addEventListener('click', (e) => {
   if (e.target === $imgModal) $imgModal.style.display = 'none';
 });
 
-
-// BOTON COMPRAR
+// Botón comprar
 $btnBuy.addEventListener("click", () => {
   let total = document.querySelector('.cart-total strong').innerText;
   let mensaje = `Hola BOLIGLOBOS!, quiero hacer un pedido:\n\n`;
 
   cart.forEach((item) => {
-    // Usar el product_id como índice, no como valor de búsqueda
     mensaje += `- ${products[item.product_id - 1].name} - $${products[item.product_id - 1].price.toFixed(3)} x ${item.quantity} = ${(products[item.product_id - 1].price.toFixed(3) * item.quantity).toFixed(3)}\n`;
   });
   mensaje += `\n*${total}*`;
