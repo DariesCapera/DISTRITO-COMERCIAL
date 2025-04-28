@@ -137,20 +137,27 @@ header nav a {
 }
 
 #hero {
-  background-image: url(../IMG/bg-textured-black.jpg);
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center center;
+  background-image: url(../IMG/banner-desktop.jpeg);
+  padding: 0;
   background-attachment: fixed;
-  text-align: center;
-  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
 }
 
 #hero h1,
 #hero p {
-  color: var(--white-color);
+  color: var(--black-color);
+  padding: 14px;
+  border-radius: 3px;
+  background-color: #ffffff59;
+  max-width: 70%;
+}
+
+#hero p {
+  font-size: 18px;
+
 }
 
 button {
@@ -529,6 +536,17 @@ footer .follow i {
 
 
 @media (min-width: 700px) {
+
+  #hero {
+    background-image: url(../IMG/banner-desktop.jpeg);
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+  }
+
   header nav.flex-column {
     display: flex;
     flex-direction: row;
