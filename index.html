@@ -13,30 +13,22 @@
 <body>
   <!-- HEADER -->
   <header class="flex-row">
-    <a href="#">
-      <img src="./IMG/logo-white.png" alt="Logo">
-    </a>
-
+    <a href="#"><img src="./IMG/logo-white.png" alt="Logo"></a>
     <i class="bi bi-list open-nav"></i>
     <nav class="flex-column">
-      <a href="#">Home</a></li>
-      <a href="#">Products</a></li>
-      <a href="#">About Us</a></li>
-      <a href="#">Contact</a></li>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
       <i class="bi bi-x-lg close-nav"></i>
     </nav>
-
   </header>
-
 
   <!-- HERO -->
   <section id="hero" class="flex-column">
     <h1>EL SERVICIO</h1>
-    <p>servir es el arte supremo de la existencia humana, súmale a la creación, súmale a la experiencia, súmale a la
-      vida, sirve para ti mismo y en medio de tu fortaleza sirve para los demás, sin descuidarte a ti mismo así
-      aprenderás a vivir una vida en la que no tengas arrepentimientos</p>
+    <p>servir es el arte supremo de la existencia humana...</p>
   </section>
-
 
   <!-- PRODUCTS + CART -->
   <section id="products" class="flex-column">
@@ -48,24 +40,19 @@
     </div>
 
     <div class="main-listProduct flex-column">
-      <div class="listProduct flex-row">
-      </div>
+      <div class="listProduct flex-row"></div>
     </div>
 
     <div class="cartTab flex-column">
-      <h2>TU Carrito</h2>
-      <div class="listCart flex-column">
-
-      </div>
+      <h2>Tu Carrito</h2>
+      <div class="listCart flex-column"></div>
       <div class="btn">
         <button class="close">Cerrar</button>
         <button class="clean">Limpiar</button>
         <button class="buy">Confirmar <br> Orden</button>
       </div>
     </div>
-
   </section>
-
 
   <!-- FOOTER -->
   <footer class="flex-row">
@@ -77,32 +64,26 @@
           class="bi bi-whatsapp"></i></a>
       <a href="https://www.facebook.com/profile.php?id=61559969952289&locale=es_LA" target="_blank"
         aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-      <!-- <a href="" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-      <a href="" target="_blank" aria-label="YouTube"><i class="bi bi-youtube"></i></a> -->
     </div>
-    <code>©copyright 2025 By MacV </code>
+    <code>©copyright 2025 By MacV</code>
   </footer>
-
 
   <!-- VISTAS -->
 
   <!-- VISTA PRODUCT DETAILS -->
   <section id="v-product" class="flex-column">
     <i class="bi bi-x-lg close-v-product"></i>
-    <img src="" alt="imagen-producto">
+    <div class="images flex-row"></div> <!-- Nuevo contenedor de imágenes -->
     <h2 class="name">NAME PRODUCT</h2>
     <p class="details">DETAILS PRODUCT</p>
     <button class="addCart button1">Agregar</button>
-    <!-- <div class="back-black"></div> -->
   </section>
 
   <!-- IMAGEN GRANDE DE PRODUCTO -->
   <div id="image-modal" class="flex-column" style="display:none;">
-    <spa n class="close-modal">×</spa>
+    <span class="close-modal">×</span>
     <img src="" alt="Imagen ampliada">
   </div>
-
-
 
   <!-- JS -->
   <script src="./JS/global.js"></script>

@@ -1,4 +1,4 @@
-// ✅ ARCHIVO: global.js (ACTUALIZADO CON SALTOS DE LÍNEA EN DETAILS)
+// ✅ ARCHIVO: global.js ACTUALIZADO
 
 let currentProductIndex = null;
 
@@ -55,7 +55,7 @@ const addDataToHTML = () => {
       newProduct.dataset.id = index;
       newProduct.classList.add('item', 'flex-column');
       newProduct.innerHTML = `
-        <img src=".${cleanImagePath(product.image)}" alt="${product.name}">
+        <img src=".${cleanImagePath(product.images[0])}" alt="${product.name}">
         <h5 class="product-name">${product.name}</h5>
         <h5 class="price">$${product.price.toFixed(3)}</h5>
         <div class="flex-row">
@@ -66,7 +66,16 @@ const addDataToHTML = () => {
 
       newProduct.addEventListener('click', (e) => {
         if (e.target.closest('.addCart')) return;
-        $viewProduct.querySelector('img').src = `.${product.image}`;
+
+        const imagesContainer = $viewProduct.querySelector('.images');
+        imagesContainer.innerHTML = '';
+        product.images.forEach(imgPath => {
+          const img = document.createElement('img');
+          img.src = `.${cleanImagePath(imgPath)}`;
+          img.alt = product.name;
+          imagesContainer.appendChild(img);
+        });
+
         $viewProduct.querySelector('.name').textContent = product.name;
         $viewProduct.querySelector('.details').innerHTML = product.details.replace(/\n/g, '<br>');
         $viewProduct.style.display = "flex";
@@ -126,7 +135,7 @@ const addCartToHTML = () => {
     newItem.dataset.id = item.product_id;
     newItem.innerHTML = `
       <div class="image flex-row">
-        <img src=".${cleanImagePath(product.image)}" alt="${product.name}">
+        <img src=".${cleanImagePath(product.images[0])}" alt="${product.name}">
       </div>
       <div class="name">${product.name}</div>
       <div class="totalPrice">$${itemTotal.toFixed(3)}</div>
@@ -196,9 +205,9 @@ const $imgModal = document.getElementById('image-modal');
 const $modalImg = $imgModal?.querySelector('img');
 const $closeModal = $imgModal?.querySelector('.close-modal');
 
-$viewProduct.querySelector('img').addEventListener('click', () => {
-  if ($modalImg && $imgModal) {
-    $modalImg.src = $viewProduct.querySelector('img').src;
+$viewProduct.querySelector('.images').addEventListener('click', (e) => {
+  if (e.target.tagName === 'IMG') {
+    $modalImg.src = e.target.src;
     $imgModal.style.display = 'flex';
   }
 });
@@ -210,5 +219,3 @@ document.addEventListener('keydown', e => {
 $imgModal?.addEventListener('click', (e) => {
   if (e.target === $imgModal) $imgModal.style.display = 'none';
 });
-
-
