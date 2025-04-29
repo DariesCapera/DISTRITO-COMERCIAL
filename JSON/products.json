@@ -11,6 +11,19 @@
                 "/IMG/PRODUCTS/00_01_BLANCO.jpg",
                 "/IMG/PRODUCTS/00_01_AZUL.jpg"
             ]
+        },
+        {
+            "name": "Reloj G Force H Goma Tipo Rm",
+            "price": 220.000,
+            "details": "Descubre el Reloj G Force H Goma Tipo Rm, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión. \nCaracterísticas del reloj Características del reloj \n1.Pulsera en silicona \n2.Material del reloj en silicona rígida \n3.Hora análoga \n4.Salpicadura y lavado de manos Sumerible \n5.Totalmente Contramarcado y funcional \n6.Incluye estuche de lujo G Force \n7.Garantía de 6 meses",
+            "images": [
+                "/IMG/PRODUCTS/0101_NARANJA.jpg",
+                "/IMG/PRODUCTS/0101_ROJO.jpg",
+                "/IMG/PRODUCTS/0101_NEGRO.jpg",
+                "/IMG/PRODUCTS/0101_NEGRO GRIS.jpg",
+                "/IMG/PRODUCTS/0101_NEGRO AZUL.jpg"
+            ]
         }
+        
     ]
 }
