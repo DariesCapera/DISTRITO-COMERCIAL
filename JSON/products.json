@@ -56,24 +56,32 @@
             "details": "Descubre el Reloj Edifice Casio R2, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión.\nCaracterísticas del reloj Características del reloj \n1.Pulso en acero \n2.Calendario y Hora análoga \n3.Totalmente Contramarcado y funcional \n6.Incluye estuche de lujo G Force \n7.Garantía de 3 meses",
             "images": [
                 "/IMG/PRODUCTS/R501 DORADO FB.jpg",
-                "/IMG/PRODUCTS/R501 DORADO FN",
-                "/IMG/PRODUCTS/R501 GRISjpg",
+                "/IMG/PRODUCTS/R501 DORADO FN.jpg",
+                "/IMG/PRODUCTS/R501 GRIS.jpg",
                 "/IMG/PRODUCTS/R501 NEGRO DORADO.jpg",
-                "/IMG/PRODUCTS/R501 NEGRO FB",
+                "/IMG/PRODUCTS/R501 NEGRO FB.jpg",
                 "/IMG/PRODUCTS/R501 NEGRO FN.jpg"                          
             ]
         },
         {
             "name": "G Force Automatico Dama At9016",
-            "price": 119.900,
-            "details": "Descubre el Reloj G Force Automatico Dama At9016, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión.\nCaracterísticas del reloj Características del reloj \n1.Material del reloj Metálico en antimonio \n2.Pulsera en Acero \n3.Maquinaria Automática \n3.Tapa en cristal mineral con maquinaria visible \n6.Incluye estuche de lujo G Force \n7.Garantía de 3 meses",
+            "price": 179.900,
+            "details": "Descubre el Reloj G Force Automatico Dama At9016, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión.\nCaracterísticas del reloj Características del reloj \n1.Material del reloj Metálico en antimonio \n2.Pulsera en Acero \n3.Maquinaria Automática \n3.Tapa en cristal mineral con maquinaria visible \n6.Incluye estuche de lujo G Force \n7.pulsera precio adicional \n8.Garantía de 3 meses",
             "images": [
                 "/IMG/PRODUCTS/RM0101 BLANCO GRIS.jpg",
-                "/IMG/PRODUCTS/RM0101 BLANCO AMARILLO",
-                "/IMG/PRODUCTS/R501 GRISjpg",
-                "/IMG/PRODUCTS/R501 NEGRO DORADO.jpg",
-                "/IMG/PRODUCTS/R501 NEGRO FB",
-                "/IMG/PRODUCTS/R501 NEGRO FN.jpg"                          
+                "/IMG/PRODUCTS/RM0101 DORADO AMARILLO.jpg",
+                "/IMG/PRODUCTS/RM0101 DORADO AZAUL OSCURO.jpg",
+                "/IMG/PRODUCTS/RM0101 DORADO FB.jpg"                                         
+            ]
+        },
+        {
+            "name": "Reloj Qq Cubano Joyita",
+            "price": 149.900,
+            "details": "Descubre el Reloj G Force Automatico Dama At9016, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión.\nCaracterísticas del reloj Características del reloj \n1.Material del reloj Metálico en antimonio \n2.Pulsera en Acero \n3.Maquinaria Automática \n3.Tapa en cristal mineral con maquinaria visible \n6.Incluye estuche de lujo G Force \n7.Incluye accesorios \n8.Garantía de 3 meses",
+            "images": [
+                "/IMG/PRODUCTS/RM201 COBRE B.jpg",
+                "/IMG/PRODUCTS/RM201 DORADO.jpg",
+                "/IMG/PRODUCTS/RM201 PLATEADO  D.jpg"                       
             ]
         }
     ]
