@@ -2,8 +2,8 @@
     "ACCESORIOS": [
         {
             "name": "Reloj G Force Cronografo Model",
-            "price": 190000,
-            "details": "El Reloj G Force Cronógrafo Model...",
+            "price": 190.000,
+            "details": "El Reloj G Force Cronógrafo Model, la combinación perfecta entre elegancia, personalidad y estilo. \nCaracterísticas del reloj Características del reloj \n1. Cronógrafos y calendario Funcional \n2.Pulsera en silicona \n3.Material del reloj en silicona rígida \n4.Hora análoga \n5.Mica en cristal mineral \n6.Salpicadura y lavado de manos Sumerible \n7.Totalmente Contramarcado y funcional \n8.Incluye estuche de lujo G Force \n9.Garantía de 3 meses",
             "images": [
                 "/IMG/PRODUCTS/00_01_ROJO.jpg",
                 "/IMG/PRODUCTS/00_01_NARANJA.jpg",
@@ -19,11 +19,62 @@
             "images": [
                 "/IMG/PRODUCTS/0101_NARANJA.jpg",
                 "/IMG/PRODUCTS/0101_ROJO.jpg",
-                "/IMG/PRODUCTS/0101_NEGRO.jpg",
+                "/IMG/PRODUCTS/0101_AMARILLO.jpg",
+                "/IMG/PRODUCTS/0101_NEGRO BORDE DORADO.jpg",
+                "/IMG/PRODUCTS/0101_NEGRO DORADO.jpg",
                 "/IMG/PRODUCTS/0101_NEGRO GRIS.jpg",
-                "/IMG/PRODUCTS/0101_NEGRO AZUL.jpg"
+                "/IMG/PRODUCTS/0101_NEGRO AZUL.jpg",
+                "/IMG/PRODUCTS/0101_VERDE.jpg",
+                "/IMG/PRODUCTS/0101_CAFE.jpg",
+                "/IMG/PRODUCTS/0101_BLANCO.jpg"
+            ]
+        },
+        {
+            "name": "Reloj G Force Automatic New Model Style",
+            "price": 259.900,
+            "details": "Descubre el Reloj G Force Automatic New Model Style, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión. \nCaracterísticas del reloj Características del reloj \n1.Pulsera en silicona \n2.Material del reloj en silicona rígida \n3.Hora análoga \n4.Salpicadura y lavado de manos Sumerible \n5.Totalmente Contramarcado y funcional \n6.Incluye estuche de lujo G Force \n7.Garantía de 6 meses",
+            "images": [
+                "/IMG/PRODUCTS/0201 BLANCO.jpg",
+                "/IMG/PRODUCTS/0201 NEGRO.jpg",
+                "/IMG/PRODUCTS/0201 VERDE.jpg",
+                "/IMG/PRODUCTS/0201 BLANCO GRIS.jpg"              
+            ]
+        },
+        {
+            "name": "Reloj G Force New Model Chronoh3907",
+            "price": 189.900,
+            "details": "Descubre el Reloj G Force New Model Chronoh3907, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión. \nCaracterísticas del reloj Características del reloj \n1.Pulsera en silicona \n2.Material del reloj en silicona rígida \n3.Hora análoga \n4.Salpicadura y lavado de manos Sumerible \n5.Totalmente Contramarcado y funcional \n6.Incluye estuche de lujo G Force \n7.Garantía de 6 meses",
+            "images": [
+                "/IMG/PRODUCTS/R401 BLANCO.jpg",
+                "/IMG/PRODUCTS/R401 NEGRO.jpg",
+                "/IMG/PRODUCTS/R401 ROJO.jpg"                          
+            ]
+        },
+        {
+            "name": "Reloj Edifice Casio R2",
+            "price": 129.900,
+            "details": "Descubre el Reloj Edifice Casio R2, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión.\nCaracterísticas del reloj Características del reloj \n1.Pulso en acero \n2.Calendario y Hora análoga \n3.Totalmente Contramarcado y funcional \n6.Incluye estuche de lujo G Force \n7.Garantía de 3 meses",
+            "images": [
+                "/IMG/PRODUCTS/R501 DORADO FB.jpg",
+                "/IMG/PRODUCTS/R501 DORADO FN",
+                "/IMG/PRODUCTS/R501 GRISjpg",
+                "/IMG/PRODUCTS/R501 NEGRO DORADO.jpg",
+                "/IMG/PRODUCTS/R501 NEGRO FB",
+                "/IMG/PRODUCTS/R501 NEGRO FN.jpg"                          
+            ]
+        },
+        {
+            "name": "G Force Automatico Dama At9016",
+            "price": 119.900,
+            "details": "Descubre el Reloj G Force Automatico Dama At9016, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión.\nCaracterísticas del reloj Características del reloj \n1.Material del reloj Metálico en antimonio \n2.Pulsera en Acero \n3.Maquinaria Automática \n3.Tapa en cristal mineral con maquinaria visible \n6.Incluye estuche de lujo G Force \n7.Garantía de 3 meses",
+            "images": [
+                "/IMG/PRODUCTS/RM0101 BLANCO GRIS.jpg",
+                "/IMG/PRODUCTS/RM0101 BLANCO AMARILLO",
+                "/IMG/PRODUCTS/R501 GRISjpg",
+                "/IMG/PRODUCTS/R501 NEGRO DORADO.jpg",
+                "/IMG/PRODUCTS/R501 NEGRO FB",
+                "/IMG/PRODUCTS/R501 NEGRO FN.jpg"                          
             ]
         }
-        
     ]
 }
