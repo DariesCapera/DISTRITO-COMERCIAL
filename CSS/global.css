@@ -54,6 +54,13 @@ section {
 }
 
 
+#pre-header {
+  z-index: 100;
+  padding: 7px;
+  background-color: #dbdbdb;
+}
+
+
 header.flex-row {
   width: 100%;
   height: 70px;
@@ -317,12 +324,12 @@ footer .follow i {
   background-color: var(--white-color);
   color: var(--black-color);
   position: fixed;
-  top: 70px;
-  right: -400px;
+  top: 0px;
+  right: -410px;
   bottom: 0;
   transition: .3s ease-in-out;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.7);
-  z-index: 11;
+  z-index: 111;
 }
 
 .showCart .cartTab {
@@ -444,8 +451,8 @@ footer .follow i {
   display: none;
   position: fixed;
   width: 100%;
-  top: 70px;
-  height: calc(100% - 70px);
+  top: 0px;
+  bottom: 0;
   background-color: var(--white-color);
   justify-content: flex-start;
   align-items: baseline;
@@ -455,6 +462,7 @@ footer .follow i {
   max-width: 520px;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.7);
   text-align: left;
+  z-index: 100;
 }
 
 #v-product img {
@@ -467,26 +475,20 @@ footer .follow i {
 
 #v-product .images {
   display: flex;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 21px;
   overflow-x: auto;
+  width: 100%;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
 }
 
 #v-product .images img {
-  max-width: 100px;
+  width: 70%;
+  height: 350px;
   cursor: pointer;
-  border-radius: 8px;
-}
-
-
-
-.back-black {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0;
-  left: 0;
-  z-index: -50;
+  object-fit: cover;
+  scroll-snap-align: center;
 }
 
 
