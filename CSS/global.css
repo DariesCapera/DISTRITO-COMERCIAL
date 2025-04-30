@@ -284,7 +284,7 @@ footer .follow i {
 #products .listProduct .item {
   width: 48%;
   max-width: 300px;
-  height: auto;
+  height: 350px;
   align-items: baseline;
   flex: 0 0 auto;
   scroll-snap-align: start;
@@ -295,7 +295,7 @@ footer .follow i {
 #products .listProduct .item .flex-row {
   position: relative;
   width: 100%;
-  margin-top: 7px;
+  margin-top: auto;
   justify-content: left;
 }
 
@@ -315,6 +315,7 @@ footer .follow i {
 #products .listProduct .item .price {
   letter-spacing: 3px;
   font-size: small;
+  margin-bottom: auto;
 }
 
 
