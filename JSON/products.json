@@ -118,6 +118,78 @@
                 "/IMG/PRODUCTS/G301 NEGRO NARANJA.jpg",
                 "/IMG/PRODUCTS/G301 NEGRO.jpg"                                                       
             ]
-        }
+        },
+        {
+            "name": "Gafa Para Hombre Carrera Uv400",
+            "price": 89.900,
+            "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
+            "images": [
+                "/IMG/PRODUCTS/G401 NEGRO AZUL.jpg",
+                "/IMG/PRODUCTS/G401 NEGRO.jpg",
+                "/IMG/PRODUCTS/G401 CAFE.jpg"
+            ]                       
+        },
+        {
+            "name": "Gafa Para Hombre Carrera Uv400",
+            "price": 89.900,
+            "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
+            "images": [
+                "/IMG/PRODUCTS/G401 NEGRO AZUL.jpg",
+                "/IMG/PRODUCTS/G401 NEGRO.jpg",
+                "/IMG/PRODUCTS/G401 CAFE.jpg"            
+            ]
+        }    
     ]
+{   "HOGAR": [    
+            {
+            "name": "Alfombra Tapete",
+        "price": 130.000,
+        "details": "Tapete tipo alfombra, hay difentes estilos y texturas, muy comudas con una sensacion unica al tacto. \n1.Señala espacios especifico en tu hojar \n2.Decora y organiza zonas de tu hojar de forma más sofisticada \n3.Crea espacios con más personalidad \n4.Te un espacio limpio y orndenado, evitar la dispercion de polvo y particulas",,
+            "images": [
+                "/IMG/PRODUCTS/00_01_ROJO.jpg",
+                "/IMG/PRODUCTS/00_01_NARANJA.jpg",
+                "/IMG/PRODUCTS/00_01_NEGRO.jpg",
+                "/IMG/PRODUCTS/00_01_BLANCO.jpg",
+                "/IMG/PRODUCTS/00_01_AZUL.jpg"
+            ]
+        }    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            ]
+
+
+
+
+
 }
+        
