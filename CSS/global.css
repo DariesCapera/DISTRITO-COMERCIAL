@@ -55,7 +55,7 @@ section {
 
 
 #pre-header {
-  z-index: 100;
+  z-index: 50;
   padding: 7px;
   background-color: #dbdbdb;
 }
@@ -70,7 +70,7 @@ header.flex-row {
   top: 0;
   justify-content: space-between;
   background-color: var(--white-color);
-  z-index: 100;
+  z-index: 50;
 }
 
 /*contenedor del logo */
@@ -233,7 +233,7 @@ footer .follow i {
   height: 55px;
   padding: 14px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 110;
 }
 
 .icon-cart .bi-cart {
@@ -546,6 +546,49 @@ footer .follow i {
   font-size: 34px;
   cursor: pointer;
   font-weight: bold;
+}
+
+
+/* SELECTOR DE CATEGORÍA */
+.category-buttons {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.category-buttons button {
+  background-color: var(--white-color);
+  border: 1px solid var(--black-color);
+  padding: 7px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+  text-transform: uppercase;
+}
+
+.category-buttons button.active,
+.category-buttons button:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+
+/* BUSCADOR */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  max-width: 350px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 14px;
+  border: 1px solid var(--black-color);
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
 }
 
 

@@ -1,4 +1,9 @@
-// ✅ ARCHIVO: global.js ACTUALIZADO
+const $categoryButtons = document.getElementById('category-buttons');
+let selectedCategory = 'TODOS';
+let allProductsByCategory = {};
+
+const $searchInput = document.getElementById('search-input');
+let searchTerm = '';
 
 let currentProductIndex = null;
 
@@ -46,13 +51,46 @@ $btnBuy.addEventListener("click", () => {
   localStorage.removeItem('cart');
 });
 
+const renderCategoryButtons = () => {
+  $categoryButtons.innerHTML = '';
+
+  const categories = ['TODOS', ...Object.keys(allProductsByCategory)];
+
+  categories.forEach(category => {
+    const btn = document.createElement('button');
+    btn.textContent = category;
+    btn.classList.add('button2');
+    if (category === selectedCategory) btn.classList.add('active');
+    btn.addEventListener('click', () => {
+      selectedCategory = category;
+      renderCategoryButtons();
+      addDataToHTML();
+    });
+    $categoryButtons.appendChild(btn);
+  });
+};
+
+const normalizeText = (text) => {
+  return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+};
+
 const addDataToHTML = () => {
   listProductHTML.innerHTML = '';
-  if (products.length > 0) {
+
+  const baseList = selectedCategory === 'TODOS'
+    ? Object.values(allProductsByCategory).flat()
+    : allProductsByCategory[selectedCategory] || [];
+
+  const filteredList = baseList.filter(product =>
+    normalizeText(product.name).includes(normalizeText(searchTerm))
+  );
+
+  if (filteredList.length > 0) {
     const fragment = document.createDocumentFragment();
-    products.forEach((product, index) => {
+
+    filteredList.forEach((product, index) => {
       const newProduct = document.createElement('div');
-      newProduct.dataset.id = index;
+      newProduct.dataset.id = products.indexOf(product);
       newProduct.classList.add('item', 'flex-column');
       newProduct.innerHTML = `
         <img src=".${cleanImagePath(product.images[0])}" alt="${product.name}">
@@ -79,12 +117,21 @@ const addDataToHTML = () => {
         $viewProduct.querySelector('.name').textContent = product.name;
         $viewProduct.querySelector('.details').innerHTML = product.details.replace(/\n/g, '<br>');
         $viewProduct.style.display = "flex";
-        currentProductIndex = index;
+        currentProductIndex = products.indexOf(product);
       });
     });
+
     listProductHTML.appendChild(fragment);
   }
 };
+
+$searchInput?.addEventListener('input', (e) => {
+  searchTerm = e.target.value;
+  addDataToHTML();
+});
+
+
+
 
 listProductHTML.addEventListener('click', (event) => {
   if (event.target.classList.contains('addCart')) {
@@ -187,8 +234,11 @@ const initApp = () => {
   fetch('./JSON/products.json')
     .then(response => response.json())
     .then(data => {
+      allProductsByCategory = data;
       products = Object.values(data).flat();
+      renderCategoryButtons();
       addDataToHTML();
+
       const storedCart = localStorage.getItem('cart');
       if (storedCart) {
         cart = JSON.parse(storedCart);
@@ -197,6 +247,7 @@ const initApp = () => {
     })
     .catch(error => console.error('Error cargando productos:', error));
 };
+
 
 window.addEventListener('DOMContentLoaded', initApp);
 

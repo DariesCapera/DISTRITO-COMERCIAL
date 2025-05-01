@@ -139,12 +139,13 @@
                 "/IMG/PRODUCTS/G401 CAFE.jpg"            
             ]
         }    
-    ]
-{   "HOGAR": [    
-            {
+    ],
+    
+    "HOGAR": [    
+        {
             "name": "Alfombra Tapete",
-        "price": 130.000,
-        "details": "Tapete tipo alfombra, hay difentes estilos y texturas, muy comudas con una sensacion unica al tacto. \n1.Señala espacios especifico en tu hojar \n2.Decora y organiza zonas de tu hojar de forma más sofisticada \n3.Crea espacios con más personalidad \n4.Te un espacio limpio y orndenado, evitar la dispercion de polvo y particulas",,
+            "price": 130.000,
+            "details": "Tapete tipo alfombra, hay difentes estilos y texturas, muy comudas con una sensacion unica al tacto. \n1.Señala espacios especifico en tu hojar \n2.Decora y organiza zonas de tu hojar de forma más sofisticada \n3.Crea espacios con más personalidad \n4.Te un espacio limpio y orndenado, evitar la dispercion de polvo y particulas",
             "images": [
                 "/IMG/PRODUCTS/00_01_ROJO.jpg",
                 "/IMG/PRODUCTS/00_01_NARANJA.jpg",
@@ -153,43 +154,6 @@
                 "/IMG/PRODUCTS/00_01_AZUL.jpg"
             ]
         }    
-        
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-            ]
-
-
-
-
+    ]
 
 }
-        
