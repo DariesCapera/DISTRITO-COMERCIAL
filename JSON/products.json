@@ -64,7 +64,7 @@
             ]
         },
         {
-            "name": "G Force Automatico Dama At9016",
+            "name": "Reloj G Force Automatico Dama At9016",
             "price": 179.900,
             "details": "Descubre el Reloj G Force Automatico Dama At9016, la combinación perfecta entre elegancia, personalidad y estilo. Este sofisticado cronógrafo no solo ofrece precisión en el tiempo, sino que también se convierte en un accesorio imprescindible para cualquier ocasión.\nCaracterísticas del reloj Características del reloj \n1.Material del reloj Metálico en antimonio \n2.Pulsera en Acero \n3.Maquinaria Automática \n3.Tapa en cristal mineral con maquinaria visible \n6.Incluye estuche de lujo G Force \n7.pulsera precio adicional \n8.Garantía de 3 meses",
             "images": [
@@ -87,7 +87,7 @@
         {
             "name": "Gafa Oakley Edicion Ferxxo",
             "price": 84.900,
-            "details": "Diseño audaz y futurista que fusiona la innovación Oakley con la esencia urbana de Ferxxo. Fabricadas con acetato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3. Incluye estuche deportivo y paño \n3.Estuche original por separado",
+            "details": "Diseño audaz y futurista que fusiona la innovación Oakley con la esencia urbana de Ferxxo. Fabricadas con acetato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño \n3.Estuche original por separado",
             "images": [
                 "/IMG/PRODUCTS/G101 BLANCO AZUL OSCURO.jpg",
                 "/IMG/PRODUCTS/G101 BLANCO AZUL.jpg",
@@ -101,10 +101,22 @@
         {
             "name": "Gafas Rayban E Round Plastic Pm",
             "price": 79.900,
-            "details": "Diseño audaz y futurista que fusiona la innovación Oakley con la esencia urbana de Ferxxo. Fabricadas con acetato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3. Incluye estuche deportivo y paño \n3.Estuche original por separado",
+            "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
             "images": [
                 "/IMG/PRODUCTS/G201 DORADO.jpg",
                 "/IMG/PRODUCTS/G201 NEGRAS.jpg"                                                       
+            ]
+        },
+        {
+            "name": "Gafa Cartier 2",
+            "price": 89.900,
+            "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
+            "images": [
+                "/IMG/PRODUCTS/G301 NEGRO A CLARO.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO AZUL.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO CAFE.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO NARANJA.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO.jpg"                                                       
             ]
         }
     ]
