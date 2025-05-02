@@ -112,11 +112,11 @@
             "price": 89.900,
             "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
             "images": [
-                "/IMG/PRODUCTS/G301 NEGRO A CLARO.jpg",
-                "/IMG/PRODUCTS/G301 NEGRO AZUL.jpg",
-                "/IMG/PRODUCTS/G301 NEGRO CAFE.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO AZUL CLARO.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO AZUL OSCURO.jpg",
                 "/IMG/PRODUCTS/G301 NEGRO NARANJA.jpg",
-                "/IMG/PRODUCTS/G301 NEGRO.jpg"                                                       
+                "/IMG/PRODUCTS/G301 CAFE.jpg"                                                       
             ]
         },
         {
@@ -128,17 +128,8 @@
                 "/IMG/PRODUCTS/G401 NEGRO.jpg",
                 "/IMG/PRODUCTS/G401 CAFE.jpg"
             ]                       
-        },
-        {
-            "name": "Gafa Para Hombre Carrera Uv400",
-            "price": 89.900,
-            "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
-            "images": [
-                "/IMG/PRODUCTS/G401 NEGRO AZUL.jpg",
-                "/IMG/PRODUCTS/G401 NEGRO.jpg",
-                "/IMG/PRODUCTS/G401 CAFE.jpg"            
-            ]
-        }    
+        }
+            
     ],
     
     "HOGAR": [    
@@ -147,13 +138,83 @@
             "price": 130.000,
             "details": "Tapete tipo alfombra, hay difentes estilos y texturas, muy comudas con una sensacion unica al tacto. \n1.Señala espacios especifico en tu hojar \n2.Decora y organiza zonas de tu hojar de forma más sofisticada \n3.Crea espacios con más personalidad \n4.Te un espacio limpio y orndenado, evitar la dispercion de polvo y particulas",
             "images": [
-                "/IMG/PRODUCTS/00_01_ROJO.jpg",
-                "/IMG/PRODUCTS/00_01_NARANJA.jpg",
-                "/IMG/PRODUCTS/00_01_NEGRO.jpg",
-                "/IMG/PRODUCTS/00_01_BLANCO.jpg",
-                "/IMG/PRODUCTS/00_01_AZUL.jpg"
+                "/IMG/PRODUCTS/0301H_MORADO.jpg",
+                "/IMG/PRODUCTS/0301H_CAFE BLACO.jpg",
+                "/IMG/PRODUCTS/0301H_AZUL MACHAS.jpg",
+                "/IMG/PRODUCTS/0301H_NEGRO.jpg",
+                "/IMG/PRODUCTS/0301H_ROJO.jpg"
+            ]
+        },
+        {
+            "name": "Escurridor De Platos Tapa 85 Cm",
+            "price": 180.000,
+            "details": "Este estante para secar platos multipropósito puede organizar utensilios, cuchillos, tenedores, platos, tazones, esponjas, tablas de cortar, frutas, verduras y suministros de cocina, todo en un solo sistema de almacenamiento. DISEÑO SOBRE EL HILO El plato de platos de diseño compacto vertical TOOLF le permite lavar y secar platos justo sobre el fregadero, liberando encimeras y manteniendo su cocina más ordenada. Perfecto para casas, pequeños apartamentos, condominios, dormitorios, entre otros sitios.\n1.Caracteristicas \n1.Lugar recomendado de colocación: de mesa \n2.Tiene capacidad para 16 platos\n3.Posee 1 niveles \n4.Con seca vasos. \n5.Con cubiertero \n6.Dimensiones: 85cm de ancho x 30cm de largo x 80cm de alto.",
+            "images": [
+                "/IMG/PRODUCTS/H201 PLATERO1.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO2.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO3.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO4.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO5.jpg"
+            ]
+        },
+        {
+            "name": "Sillón Inflable Sofá Portátil",
+            "price": 110.000,
+            "details": "Una muy buena opción a la hora de elegir un mueble cómodo, resistente, moderno y con un diseño muy vanguardista. EL sillon te permite sentarte o acostarte para ver televisión o trabajar con comodidad en tu computador portátil, además es un estilo de Puff para obtener el confort que buscas.",
+            "images": [
+                "/IMG/PRODUCTS/H401 PUFF.png"                
             ]
         }    
-    ]
+    ],
 
+    "GADGETS": [    
+        {
+            "name": "Tv Stick Wi-fi Smart Tv Android",
+            "price": 200.000,
+            "details": "Convierte tu televisor en una Smart TV de alta calidad con el Android TV Stick 16GB + 2GB RAM. Con Android 14.0 y conectividad WiFi, este dispositivo te permite acceder a todas tus aplicaciones favoritas, desde plataformas de streaming hasta juegos, sin necesidad de un dispositivo adicional. Su diseño compacto y fácil instalación lo convierten en la opción ideal para disfrutar de contenido multimedia directamente en tu televisor. \nCaracteristicas del producto \n1.Sistema Operativo: Android 14.0 \n2.Conectividad: WiFi integrad \n3.Resolución: Compatible con 1080p Full HD (dependiendo de tu TV) \n4.Conexión: HDMI para fácil instalación \n5.Dimensiones: Compacto y portátil, ideal para transportarlo fácilmente \n6.Peso: 44g",
+            "images": [
+                "/IMG/PRODUCTS/GD1-1.jpeg",
+                "/IMG/PRODUCTS/GD1-2.jpeg",
+                "/IMG/PRODUCTS/GD1-3.jpeg"                
+            ]
+        },
+        {
+            "name": "One Google Stick Tv Full Hd Streaming",
+            "price": 200.000,
+            "details": "Calidad de Imagen: Reproduce contenido en Full HD (1080p) para una experiencia visual vibrante y colorida.Compatibilidad con Disney+: Permite acceder a contenido de Disney, Pixar, Marvel, Star Wars, National Geographic y más. Manejo Sencillo: Incluye función de control de voz para una navegación fácil y rápida. \nCaracteristicas del producto \n1.Sistema operativo Google TV \n2.Conectividad wifi y bluetooth \n3.Soporte para sistema de audio Dolby \n4.Conexión: HDMI para fácil instalación \n5.Incluye cable HDMI y control remoto de voz \n6.Acceso a Plataformas deEntretenimiento: Permite disfrutar de una variedad de aplicaciones y servicios de streaming.Capacidad de Almacenamiento: Equipado con 8 GB de almacenamiento interno",
+            "images": [
+                "/IMG/PRODUCTS/GD1-1.jpeg",
+                "/IMG/PRODUCTS/GD1-2.jpeg",
+                "/IMG/PRODUCTS/GD1-3.jpeg"                
+            ]
+        },
+        {
+            "name": "Power Bank Portatil 4 cables",
+            "price": 80.000,
+            "details": "Los cables con terminales Micro USB V8, IP, Tipo C se conectan directamente a los diferentes dispositivos móviles Android y iOS. No es necesario traer cables de carga. También tiene un cable USB de carga para conectarlo al cargador de pared, un puerto de carga Micro USB V8 y un puerto de salida USB para la carga de energía del dispositivo móvil. Universalmente compatible con todos los teléfonos móviles, tabletas, etc. Se puede cargar directamente con el cable integrado, y dos perlas de lámpara integradas se pueden utilizar como linterna Chip integrado regula la energía de manera inteligente. Proporciona protección contra cortocircuitos de energía, protección contra sobre corriente, protección contra sobretensión y sobrecalentamiento para garantizar la seguridad de carga",
+            "images": [
+                "/IMG/PRODUCTS/GD303-1.jpg",
+                "/IMG/PRODUCTS/GD303-2.jpg",
+                "/IMG/PRODUCTS/GD303-3.jpg",
+                "/IMG/PRODUCTS/GD303-4.jpg",
+                "/IMG/PRODUCTS/GD303-5.jpg"                
+            ]
+        }    
+    ],
+
+    "HERRAMIENTA": [    
+        {
+            "name": "Hidrolavadora Alta Presion Inalambrica",
+            "price": 120.000,
+            "details": "La pistola de agua de lavado de alta presión no solo se puede usar para limpiar cualquier tipo de automóviles, bicicletas, motocicletas, vehículos de construcción, etc., sino que también se puede usar para limpiar balcones, ventanas, patios, paredes exteriores, pisos , casas, rocie pesticidas en árboles y jardines. \nCaracteristicas del producto \n1.Diseño inalámbrico, alimentador por batería recargable de iones de litio, conveniente para trabajar al aire libre \n2.Batería de litio de gran capacidad de 4000 mAh, conveniente para uso en exteriores \n3.No requiere manguera de jardín, soporte para sacar agua fresca del balde, botella, chorro o piscina \n4.Material: plástico ABS \n5.Color: negro \n6.Capacidad de la batería: 4000 mAh LI-Ion \nContenido del producto \n1.Hidrolavadora y Batería\n2.Boquilla y Cable de carga corriente \n3.Manguera 5 metros y Varilla \n4.Botella de espuma \n5.GARANTIA: 30 días por defectos de fábrica, es decir, si el producto llegó roto o sin funcionamiento",
+            "images": [
+                "/IMG/PRODUCTS/HH01-01.jpeg",
+                "/IMG/PRODUCTS/HH01-02.jpeg",
+                "/IMG/PRODUCTS/HH01-03.jpeg",
+                "/IMG/PRODUCTS/HH01-04.jpeg",
+                "/IMG/PRODUCTS/HH01-05.jpeg"                
+            ]
+        }
+            
+    ]
 }
