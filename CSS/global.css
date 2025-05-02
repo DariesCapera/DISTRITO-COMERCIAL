@@ -123,12 +123,11 @@ header nav .close-nav,
   right: 0;
   margin: 28px;
   font-size: 21px;
-  color: var(--black-color);
+  color: var(--white-color);
   cursor: pointer;
   border-radius: 3px;
-  border: solid 1px var(--border-color);
   padding: 7px;
-  background-color: var(--white-color);
+  background-color: var(--black-color);
 }
 
 header nav a {
