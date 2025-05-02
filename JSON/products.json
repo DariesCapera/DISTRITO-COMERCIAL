@@ -112,11 +112,11 @@
             "price": 89.900,
             "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
             "images": [
-                "/IMG/PRODUCTS/G301 NEGRO A CLARO.jpg",
-                "/IMG/PRODUCTS/G301 NEGRO AZUL.jpg",
-                "/IMG/PRODUCTS/G301 NEGRO CAFE.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO AZUL CLARO.jpg",
+                "/IMG/PRODUCTS/G301 NEGRO AZUL OSCURO.jpg",
                 "/IMG/PRODUCTS/G301 NEGRO NARANJA.jpg",
-                "/IMG/PRODUCTS/G301 NEGRO.jpg"                                                       
+                "/IMG/PRODUCTS/G301 CAFE.jpg"                                                       
             ]
         },
         {
@@ -129,16 +129,7 @@
                 "/IMG/PRODUCTS/G401 CAFE.jpg"
             ]                       
         },
-        {
-            "name": "Gafa Para Hombre Carrera Uv400",
-            "price": 89.900,
-            "details": "Diseño audaz y futurista que fusiona la innovación. Fabricadas con policarbonato resistente y lentes polarizados de alta definición, protegen tus ojos con elegancia y comodidad extrema.\nCaracterísticas del reloj Características de las gafas \n1.Marco en Policarbonato \n2.Lente en Policarbonato y Filtro UV 400 \n3.Incluye estuche deportivo y paño",
-            "images": [
-                "/IMG/PRODUCTS/G401 NEGRO AZUL.jpg",
-                "/IMG/PRODUCTS/G401 NEGRO.jpg",
-                "/IMG/PRODUCTS/G401 CAFE.jpg"            
-            ]
-        }    
+            
     ],
     
     "HOGAR": [    
@@ -147,11 +138,31 @@
             "price": 130.000,
             "details": "Tapete tipo alfombra, hay difentes estilos y texturas, muy comudas con una sensacion unica al tacto. \n1.Señala espacios especifico en tu hojar \n2.Decora y organiza zonas de tu hojar de forma más sofisticada \n3.Crea espacios con más personalidad \n4.Te un espacio limpio y orndenado, evitar la dispercion de polvo y particulas",
             "images": [
-                "/IMG/PRODUCTS/00_01_ROJO.jpg",
-                "/IMG/PRODUCTS/00_01_NARANJA.jpg",
-                "/IMG/PRODUCTS/00_01_NEGRO.jpg",
-                "/IMG/PRODUCTS/00_01_BLANCO.jpg",
-                "/IMG/PRODUCTS/00_01_AZUL.jpg"
+                "/IMG/PRODUCTS/0301H_MORADO.jpg",
+                "/IMG/PRODUCTS/0301H_CAFE BLACO.jpg",
+                "/IMG/PRODUCTS/0301H_AZUL MACHAS.jpg",
+                "/IMG/PRODUCTS/0301H_NEGRO.jpg",
+                "/IMG/PRODUCTS/0301H_ROJO.jpg"
+            ]
+        },
+        {
+            "name": "Escurridor De Platos Tapa 85 Cm",
+            "price": 180.000,
+            "details": "Este estante para secar platos multipropósito puede organizar utensilios, cuchillos, tenedores, platos, tazones, esponjas, tablas de cortar, frutas, verduras y suministros de cocina, todo en un solo sistema de almacenamiento. DISEÑO SOBRE EL HILO El plato de platos de diseño compacto vertical TOOLF le permite lavar y secar platos justo sobre el fregadero, liberando encimeras y manteniendo su cocina más ordenada. Perfecto para casas, pequeños apartamentos, condominios, dormitorios, entre otros sitios.\n1.Caracteristicas \n1.Lugar recomendado de colocación: de mesa \n2.Tiene capacidad para 16 platos\n3.Posee 1 niveles \n4.Con seca vasos. \n5.Con cubiertero \n6.Dimensiones: 85cm de ancho x 30cm de largo x 80cm de alto.",
+            "images": [
+                "/IMG/PRODUCTS/H201 PLATERO1.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO2.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO3.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO4.jpg",
+                "/IMG/PRODUCTS/H201 PLATERO5.jpg"
+            ]
+        },
+        {
+            "name": "Sillón Inflable Sofá Portátil",
+            "price": 110.000,
+            "details": "Una muy buena opción a la hora de elegir un mueble cómodo, resistente, moderno y con un diseño muy vanguardista. EL sillon te permite sentarte o acostarte para ver televisión o trabajar con comodidad en tu computador portátil, además es un estilo de Puff para obtener el confort que buscas.",
+            "images": [
+                "/IMG/PRODUCTS/H401 PUFF.png"                
             ]
         }    
     ]
