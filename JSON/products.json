@@ -165,6 +165,40 @@
                 "/IMG/PRODUCTS/H401 PUFF.png"                
             ]
         }    
-    ]
+    ],
 
+    "GADGETS": [    
+        {
+            "name": "Tv Stick Wi-fi Smart Tv Android",
+            "price": 200.000,
+            "details": "Convierte tu televisor en una Smart TV de alta calidad con el Android TV Stick 16GB + 2GB RAM. Con Android 14.0 y conectividad WiFi, este dispositivo te permite acceder a todas tus aplicaciones favoritas, desde plataformas de streaming hasta juegos, sin necesidad de un dispositivo adicional. Su diseño compacto y fácil instalación lo convierten en la opción ideal para disfrutar de contenido multimedia directamente en tu televisor. \nCaracteristicas del producto \n1.Sistema Operativo: Android 14.0 \n2.Conectividad: WiFi integrad \n3.Resolución: Compatible con 1080p Full HD (dependiendo de tu TV) \n4.Conexión: HDMI para fácil instalación \n5.Dimensiones: Compacto y portátil, ideal para transportarlo fácilmente \n6.Peso: 44g",
+            "images": [
+                "/IMG/PRODUCTS/GD1-1.jpeg",
+                "/IMG/PRODUCTS/GD1-2.jpeg",
+                "/IMG/PRODUCTS/GD1-3.jpeg"                
+            ]
+        },
+        {
+            "name": "One Google Stick Tv Full Hd Streaming",
+            "price": 200.000,
+            "details": "Calidad de Imagen: Reproduce contenido en Full HD (1080p) para una experiencia visual vibrante y colorida.Compatibilidad con Disney+: Permite acceder a contenido de Disney, Pixar, Marvel, Star Wars, National Geographic y más. Manejo Sencillo: Incluye función de control de voz para una navegación fácil y rápida. \nCaracteristicas del producto \n1.Sistema operativo Google TV \n2.Conectividad wifi y bluetooth \n3.Soporte para sistema de audio Dolby \n4.Conexión: HDMI para fácil instalación \n5.Incluye cable HDMI y control remoto de voz \n6.Acceso a Plataformas deEntretenimiento: Permite disfrutar de una variedad de aplicaciones y servicios de streaming.Capacidad de Almacenamiento: Equipado con 8 GB de almacenamiento interno",
+            "images": [
+                "/IMG/PRODUCTS/GD1-1.jpeg",
+                "/IMG/PRODUCTS/GD1-2.jpeg",
+                "/IMG/PRODUCTS/GD1-3.jpeg"                
+            ]
+        },
+        {
+            "name": "Power Bank Portatil 4 cables",
+            "price": 110.000,
+            "details": "Los cables con terminales Micro USB V8, IP, Tipo C se conectan directamente a los diferentes dispositivos móviles Android y iOS. No es necesario traer cables de carga. También tiene un cable USB de carga para conectarlo al cargador de pared, un puerto de carga Micro USB V8 y un puerto de salida USB para la carga de energía del dispositivo móvil. Universalmente compatible con todos los teléfonos móviles, tabletas, etc. Se puede cargar directamente con el cable integrado, y dos perlas de lámpara integradas se pueden utilizar como linterna Chip integrado regula la energía de manera inteligente. Proporciona protección contra cortocircuitos de energía, protección contra sobre corriente, protección contra sobretensión y sobrecalentamiento para garantizar la seguridad de carga",
+            "images": [
+                "/IMG/PRODUCTS/GD303-1.jpg",
+                "/IMG/PRODUCTS/GD303-2.jpg",
+                "/IMG/PRODUCTS/GD303-3.jpg",
+                "/IMG/PRODUCTS/GD303-4.jpg",
+                "/IMG/PRODUCTS/GD303-5.jpg"                
+            ]
+        }    
+    ]
 }
