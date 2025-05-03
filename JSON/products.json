@@ -214,6 +214,15 @@
                 "/IMG/PRODUCTS/HH01-04.jpeg",
                 "/IMG/PRODUCTS/HH01-05.jpeg"                
             ]
+        },
+        {
+            "name": "Taladro & Caja De Herramienta",
+            "price": 210.000,
+            "details": " Taladro: La herramienta perfecta para realizar trabajos pesados de perforación en cualquier lugar sin restricciones de cables. Con una potencia de 36 voltios, este taladro te brinda la fuerza necesaria para enfrentar los desafíos más exigentes. \nCaracteristicas del producto \n1.El taladro viene equipado con un motor de alta potencia \n2.Fabricado con materiales resistentes \n3.Sistema de percusión \n4.Incluye estuche \n5.Batería de 36 voltios \n6.Capacidad de la batería: 4000 mAh LI-Ion \nContenido del producto \nCaja de herramienta:Maletín con Juego de llaves de vaso (hexagonales), carraca y puntas de destornillador de calidad profesional, 46 piezas Asiento de la herramienta 14 pulgadas 6.3 mm \n1.Hecho de cromo vanadio. Totalmente endurecido y templado, más duradero y sólido \n2.Juego de herramienta esencial para uso doméstico o industrial",
+            "images": [
+                "/IMG/PRODUCTS/H301-TC-1.jpeg",
+                "/IMG/PRODUCTS/H301-TC-2.jpeg"               
+            ]
         }
             
     ]
