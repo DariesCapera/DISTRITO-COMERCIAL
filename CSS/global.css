@@ -32,6 +32,10 @@ a {
   color: inherit;
 }
 
+li {
+  list-style: none;
+}
+
 .flex-row,
 span,
 .bi {
@@ -595,6 +599,17 @@ footer .follow i {
 #contacto,
 #politicas {
   min-height: 500px;
+}
+
+#contacto div {
+  gap: 7px;
+  margin-bottom: 35px;
+}
+
+#contacto a {
+  color: var(--black-color);
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 
