@@ -14,6 +14,7 @@
 
 body {
   background-color: var(--white-color);
+  height: 100vh;
 }
 
 h1 {
@@ -194,7 +195,6 @@ footer.flex-row {
   color: var(--white-color);
   flex-wrap: wrap;
   gap: 14px;
-
 }
 
 footer img {
@@ -589,6 +589,12 @@ footer .follow i {
   border-radius: 4px;
   font-size: 14px;
   outline: none;
+}
+
+
+#contacto,
+#politicas {
+  min-height: 500px;
 }
 
 
