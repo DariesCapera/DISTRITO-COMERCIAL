@@ -164,6 +164,16 @@
             "images": [
                 "/IMG/PRODUCTS/H401 PUFF.png"                
             ]
+        },
+        {
+            "name": "1",
+            "price": 130.000,
+            "details": "Tapete tipo alfombra, hay difentes estilos y texturas, muy comudas con una sensacion unica al tacto. \n1.Señala espacios especifico en tu hojar \n2.Decora y organiza zonas de tu hojar de forma más sofisticada \n3.Crea espacios con más personalidad \n4.Te un espacio limpio y orndenado, evitar la dispercion de polvo y particulas",
+            "images": [
+                "/IMG/PRODUCTS/HT-05-A.jpg",
+                "/IMG/PRODUCTS/HT-05-B.jpg",
+                "/IMG/PRODUCTS/HT-05-C.jpg"                
+            ]
         }    
     ],
 
@@ -197,7 +207,17 @@
                 "/IMG/PRODUCTS/GD303-4.jpg",
                 "/IMG/PRODUCTS/GD303-5.jpg"                
             ]
-        }    
+        },
+        {
+            "name": "1",
+            "price": 200.000,
+            "details": "Convierte tu televisor en una Smart TV de alta calidad con el Android TV Stick 16GB + 2GB RAM. Con Android 14.0 y conectividad WiFi, este dispositivo te permite acceder a todas tus aplicaciones favoritas, desde plataformas de streaming hasta juegos, sin necesidad de un dispositivo adicional. Su diseño compacto y fácil instalación lo convierten en la opción ideal para disfrutar de contenido multimedia directamente en tu televisor. \nCaracteristicas del producto \n1.Sistema Operativo: Android 14.0 \n2.Conectividad: WiFi integrad \n3.Resolución: Compatible con 1080p Full HD (dependiendo de tu TV) \n4.Conexión: HDMI para fácil instalación \n5.Dimensiones: Compacto y portátil, ideal para transportarlo fácilmente \n6.Peso: 44g",
+            "images": [
+                "/IMG/PRODUCTS/GD-09-A.jpg",
+                "/IMG/PRODUCTS/GD-09-B.jpg",
+                "/IMG/PRODUCTS/GD-09-C.jpg"                
+            ]
+        },    
     ],
 
     "HERRAMIENTA": [    
