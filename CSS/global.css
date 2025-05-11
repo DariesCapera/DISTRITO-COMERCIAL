@@ -480,11 +480,12 @@ footer .follow i {
   min-height: 350px;
   gap: 10px;
   scroll-snap-type: x mandatory;
+  padding: 0 70px;
 }
 
 #v-product .images img {
   background-color: var(--border-color);
-  width: 77%;
+  width: 300px;
   height: 350px;
   cursor: pointer;
   object-fit: cover;
