@@ -607,7 +607,8 @@ footer .follow i {
   margin-bottom: 35px;
 }
 
-#contacto a {
+#contacto a,
+#politicas a {
   color: var(--black-color);
   font-size: 14px;
   text-decoration: underline;
