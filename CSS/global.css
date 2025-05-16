@@ -474,13 +474,13 @@ footer .follow i {
 #v-product .images {
   display: flex;
   justify-content: flex-start;
-  gap: 21px;
   overflow-x: auto;
   width: 100%;
   min-height: 350px;
   gap: 10px;
   scroll-snap-type: x mandatory;
   padding: 0 70px;
+  overflow: hidden;
 }
 
 #v-product .images img {
