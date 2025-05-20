@@ -480,7 +480,7 @@ footer .follow i {
   gap: 10px;
   scroll-snap-type: x mandatory;
   padding: 0 70px;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 #v-product .images img {
